@@ -1,0 +1,36 @@
+let avgDolpins1 = (44+23+71)/3;
+
+
+let avgKoalas1 = (65+54+49)/3;
+
+
+let avgDolpins2 = (85+54+41)/3;
+
+let avgKoalas2 = (23+34+27)/3;
+
+console.log(avgDolpins1, avgKoalas1, avgDolpins2, avgKoalas2  );
+
+
+let calcAvr = avgDolpins1 >= 2* avgKoalas1 ? console.log(`the winner is dolphin, score is ${avgDolpins1} is bigger than ${avgKoalas1}`) : console.log(`the winner is kola, score is ${avgKoalas1} is bigger than ${avgDolpins1}`)
+
+let calcAvr2 = avgDolpins2 >= 2* avgKoalas2 ? console.log(`the winner is dolphin, score is ${avgDolpins2} bigger than ${avgKoalas2}`) : console.log(`the winner is kola, score is ${avgKoalas2} is bigger than ${avgDolpins2}`)
+
+
+
+function checkWinner1(avgDolpins1, avgKoalas1 ){
+
+    return calcAvr;
+
+}
+
+
+
+checkWinner1();
+
+
+function checkWinner2(avgDolpins2, avgKoalas2){
+
+    return calcAvr2;
+
+}
+checkWinner2();
