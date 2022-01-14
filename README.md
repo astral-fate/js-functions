@@ -19,7 +19,7 @@ bellow, we will have simple examples, for every type, but before that, let's int
                      function Function_Name (){
                      const cal = 10*10;
                      console.log(cal);
-                     }
+                     } 
                      Function_Name();
                      
                      
